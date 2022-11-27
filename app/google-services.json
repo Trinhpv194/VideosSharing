@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "508089354302",
+    "firebase_url": "https://share-feelings-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "share-feelings-app",
+    "storage_bucket": "share-feelings-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508089354302:android:f98c1a555d6bec7e27696f",
+        "android_client_info": {
+          "package_name": "com.example.firebasevideos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508089354302-jhee5dvuoie24g6ck0sb6lsiomqpmi7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW-lOkcluN2XZAzeiFYE1ADnGB1P2-8Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508089354302-jhee5dvuoie24g6ck0sb6lsiomqpmi7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508089354302:android:8ebb945f0d409fe627696f",
+        "android_client_info": {
+          "package_name": "com.example.sharefeelings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508089354302-k4tgjdseeu3kuln185h5keepvgp1efuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharefeelings",
+            "certificate_hash": "beba1a2fe3fae5ac320ee1076ddca1ff13e11f98"
+          }
+        },
+        {
+          "client_id": "508089354302-jhee5dvuoie24g6ck0sb6lsiomqpmi7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW-lOkcluN2XZAzeiFYE1ADnGB1P2-8Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508089354302-jhee5dvuoie24g6ck0sb6lsiomqpmi7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508089354302:android:3bb2be468c5e430927696f",
+        "android_client_info": {
+          "package_name": "com.lasadu.videos_sharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508089354302-jhee5dvuoie24g6ck0sb6lsiomqpmi7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW-lOkcluN2XZAzeiFYE1ADnGB1P2-8Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508089354302-jhee5dvuoie24g6ck0sb6lsiomqpmi7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

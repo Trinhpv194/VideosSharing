@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Videos Sharing</string>
+    <string name="name_user">User Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="avatar_user">Avatar User</string>
+    <string name="register">Register</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="login_account">Login Account</string>
+    <string name="new_user_signup">Not have Account? <b>SignUp</b></string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="login">Login</string>
+</resources>
