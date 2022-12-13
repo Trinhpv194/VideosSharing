@@ -9,6 +9,12 @@
     <string name="create_new_account">Create New Account</string>
     <string name="login_account">Login Account</string>
     <string name="new_user_signup">Not have Account? <b>SignUp</b></string>
-    <string name="forgot_password">Forgot password ?</string>
+    <string name="forgot_password">Forgot password</string>
     <string name="login">Login</string>
+
+    <string name="myFriend">Bạn bè</string>
+    <string name="myHome">Trang chủ</string>
+    <string name="myBox">Hộp thư</string>
+    <string name="infoAccount">Hồ sơ</string>
+    <string name="loading">Loading...</string>
 </resources>

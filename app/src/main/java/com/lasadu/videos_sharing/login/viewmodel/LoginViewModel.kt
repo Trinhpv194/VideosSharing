@@ -16,17 +16,40 @@ class LoginViewModel(application: Application) : ViewModel() {
 
     fun loginAccountViewModel(email: String, password: String) {
         firebaseAuth = FirebaseAuth.getInstance()
-        validateData(email, password)
+        validateDataLogin(email, password)
+    }
+    fun forgotPassword(email: String){
+        firebaseAuth = FirebaseAuth.getInstance()
+        validateDateForgotPassword(email)
     }
 
-    private fun validateData(email: String, password: String) {
+    private fun validateDateForgotPassword(email: String) {
+        if (email.isEmpty()){
+            showMessageLiveData.postValue(ShowMessage.NumberShowMessage(true,"Enter Mail..."))
+        }else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+            showMessageLiveData.postValue(ShowMessage.NumberShowMessage(true, "Invalid email format..."))
+        }else{
+            recoverPassword(email)
+        }
+    }
+
+    private fun recoverPassword(email: String) {
+        //Khởi tạo Dialog
+        loadingProgressLiveData.postValue(ShowMessage.LoadingData(true,"Sending password reset instructions to $email"))
+        firebaseAuth.sendPasswordResetEmail(email)
+            .addOnSuccessListener {
+                loadingProgressLiveData.postValue(ShowMessage.LoadingData(false))
+                showMessageLiveData.postValue(ShowMessage.NumberShowMessage(true, "Instructions sent to \n$email"))
+            }
+            .addOnFailureListener {e ->
+                loadingProgressLiveData.postValue(ShowMessage.LoadingData(false))
+                showMessageLiveData.postValue(ShowMessage.NumberShowMessage(true, "Failed to sent due to ${e.message}"))
+            }
+    }
+
+    private fun validateDataLogin(email: String, password: String) {
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            showMessageLiveData.postValue(
-                ShowMessage.NumberShowMessage(
-                    true,
-                    "Invalid email format..."
-                )
-            )
+            showMessageLiveData.postValue(ShowMessage.NumberShowMessage(true, "Invalid email format..."))
         }else if (password.isEmpty()){
             showMessageLiveData.postValue(
                 ShowMessage.NumberShowMessage(

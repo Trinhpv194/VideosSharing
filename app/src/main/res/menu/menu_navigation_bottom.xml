@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myHome"
+        android:icon="@drawable/ic_home_white"
+        android:title="@string/myHome" />
+    <item
+        android:id="@+id/myFriend"
+        android:icon="@drawable/ic_friend_white"
+        android:title="@string/myFriend" />
+    <item
+        android:id="@+id/myAddVideo"
+        android:icon="@drawable/ic_add_video"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/myBox"
+        android:icon="@drawable/ic_my_box_white"
+        android:title="@string/myBox" />
+    <item
+        android:id="@+id/myInfo"
+        android:icon="@drawable/ic_info_acc_white"
+        android:title="@string/infoAccount" />
+
+</menu>

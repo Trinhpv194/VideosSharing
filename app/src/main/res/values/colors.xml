@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="color_toolbar">#66CCFF</color>
+    <color name="color_toolbar_2">#282A2B</color>
     <color name="color_edittext">#CFCCCC</color>
     <color name="color_button">#CFCCCC</color>
 </resources>

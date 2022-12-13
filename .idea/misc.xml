@@ -6,13 +6,23 @@
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/custom_button.xml" value="0.1905" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/custom_edittext_gray.xml" value="0.1905" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/custom_toolbar.xml" value="0.1905" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_add_video.xml" value="0.2265" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_email_black.xml" value="0.1905" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_friend_white.xml" value="0.2265" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_home_black.xml" value="0.2265" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_home_white.xml" value="0.2265" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_info_acc_white.xml" value="0.2265" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_lock_black.xml" value="0.1905" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_logout_white.xml" value="0.2265" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_my_box_white.xml" value="0.2265" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/drawable/ic_person_black.xml" value="0.1905" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/layout/activity_forgot_password.xml" value="0.3546875" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/layout/activity_load.xml" value="0.3546875" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/layout/activity_login.xml" value="0.3546875" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/layout/activity_main.xml" value="0.340625" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/layout/activity_register.xml" value="0.3546875" />
         <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/layout/activity_splash.xml" value="0.3546875" />
+        <entry key="..\:/AndroidProjects/VideosSharing/app/src/main/res/menu/menu_navigation_bottom.xml" value="0.3546875" />
       </map>
     </option>
   </component>
